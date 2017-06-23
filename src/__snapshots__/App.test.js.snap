@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots the page correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h2>
+      React Form
+    </h2>
+  </div>
+  <form>
+    Name:
+    <input
+      className="name"
+      onChange={[Function]}
+      type="text"
+    />
+    <p
+      id="name"
+    >
+        
+      
+       
+    </p>
+     
+    <br />
+    Email:
+    <input
+      className="email"
+      onChange={[Function]}
+      type="text"
+    />
+    <p
+      id="email"
+    >
+        
+      
+       
+    </p>
+     
+    <br />
+    Phone:
+    <input
+      className="phone"
+      onChange={[Function]}
+      type="text"
+    />
+    <p
+      id="phone"
+    >
+        
+      
+       
+    </p>
+     
+    <br />
+    <input
+      type="submit"
+    />
+  </form>
+</div>
+`;
