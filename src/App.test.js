@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import renderer from 'react-test-renderer';
+// airbnb makes this library called enzyme that's supposed to be really good for testing components
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -28,6 +29,7 @@ test('but there is a "stop" in Christoph', () => {
 });
 
 //Testing Arrays
+// :D
 const friends = [
     "Gauri",
     "Troy",
